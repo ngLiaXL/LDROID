@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        applicationId "com.ldroid.kwei"
+        minSdkVersion 11
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles 'proguard.cfg'
+        }
+    }
+    useLibrary 'org.apache.http.legacy'
+}
+apply plugin: 'android-apt'
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar']) // 编译lib下面的所有jar包
+    testCompile 'junit:junit:4.12'
+
+    //直接依赖远程项目名字 + 版本号
+    compile 'com.android.support:appcompat-v7:24.2.0'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
+
+    //compile project(':extras:xxx') 编译extras 下的xxx模块
+}

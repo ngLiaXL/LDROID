@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LDROID</string>
+    <string name="common_net_error">网络或服务器异常</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<resources>
+
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <!-- alert dialog -->
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+    <!-- alert dialog -->
+
+
+    <!-- alert view -->
+    <!-- 标题文字大小 -->
+    <dimen name="textSize_alert_title">20sp</dimen>
+    <dimen name="textSize_actionsheet_title">14sp</dimen>
+    <!-- 标题文字高度 -->
+    <dimen name="height_alert_title">60dp</dimen>
+    <dimen name="height_actionsheet_title">40dp</dimen>
+    <!-- 消息文字大小 -->
+    <dimen name="textSize_alert_msg">15sp</dimen>
+    <dimen name="textSize_actionsheet_msg">14sp</dimen>
+    <!-- 消息距离底部间距 -->
+    <dimen name="marginBottom_alert_msg">25dp</dimen>
+    <dimen name="marginBottom_actionsheet_msg">14dp</dimen>
+    <!-- 窗口模式左右两边到屏幕的间距 -->
+    <dimen name="margin_alert_left_right">40dp</dimen>
+    <dimen name="margin_actionsheet_left_right">10dp</dimen>
+    <!-- 线条粗细 -->
+    <dimen name="size_divier">1px</dimen>
+    <!-- 按钮的高度 -->
+    <dimen name="height_alert_button">42dp</dimen>
+    <!-- 按钮文字大小 -->
+    <dimen name="textSize_alert_button">16sp</dimen>
+    <!-- 圆角 -->
+    <dimen name="radius_alertview">10px</dimen>
+    <!-- alert view -->
+
+
+    <!-- drop down list view -->
+    <dimen name="drop_down_list_header_padding_top">12dp</dimen>
+    <dimen name="drop_down_list_header_padding_bottom">15dp</dimen>
+    <dimen name="drop_down_list_header_release_min_distance">20dp</dimen>
+    <dimen name="drop_down_list_header_progress_bar_height">36dp</dimen>
+    <dimen name="drop_down_list_footer_progress_bar_height">36dp</dimen>
+    <dimen name="drop_down_list_footer_button_margin_left">8dp</dimen>
+    <dimen name="drop_down_list_footer_button_height">48dp</dimen>
+
+
+    <!-- drop down list view -->
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="common_bg">#f3f3f4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FA0015</color>
+    <color name="yellow">#ffaa1c</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_half">#80E0E0E0</color>
+    <color name="common_txt">#676a6e</color>
+    <color name="common_txt_hint">#909090</color>
+    <color name="common_item_press">#f1f1f1</color>
+    <color name="common_item_sep_line">#e6e6e6</color>
+    <color name="bg_default_color_gary">#eeeeee</color>
+    <color name="color_text_blue">#339999</color>
+
+    <!-- appmsg -->
+    <color name="custom">#ff0099CC</color>
+    <color name="sticky">#ffffcd5a</color>
+    <color name="alert">#CC0000</color>
+    <color name="confirm">#FF8800</color>
+    <color name="info">#669900</color>
+    <!-- appmsg -->
+    <!-- alert dialog -->
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="text_color">#575757</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+    <!-- alert dialog -->
+
+
+    <!-- alert view -->
+    <!-- 覆盖颜色 -->
+    <color name="bgColor_overlay">#60000000</color>
+    <!-- 窗口背景颜色 -->
+    <color name="bgColor_alertview_alert">#f8f8f8</color>
+    <!-- 标题颜色 -->
+    <color name="textColor_alert_title">#000000</color>
+    <color name="textColor_actionsheet_title">#8f8f8f</color>
+    <!-- 消息颜色 -->
+    <color name="textColor_alert_msg">#000000</color>
+    <color name="textColor_actionsheet_msg">#8f8f8f</color>
+    <!-- 线条颜色 -->
+    <color name="bgColor_divier">#d7d7db</color>
+    <!-- 取消按钮颜色 -->
+    <color name="textColor_alert_button_cancel">#007aff</color>
+    <!-- 高亮按钮颜色 -->
+    <color name="textColor_alert_button_destructive">#ff3b30</color>
+    <!-- 普通按钮文字颜色 -->
+    <color name="textColor_alert_button_others">#007aff</color>
+    <!-- 点击颜色 -->
+    <color name="bgColor_alert_button_press">#EAEAEA</color>
+    <!-- actionsheet模式的取消按钮背景颜色 -->
+    <color name="bgColor_actionsheet_cancel_nor">#ffffff</color>
+    <!-- alert view -->
+
+    <color name="md__defaultBackground">#FF555555</color>
+
+</resources>

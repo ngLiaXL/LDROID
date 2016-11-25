@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top" >
+
+    <RelativeLayout
+        android:id="@+id/rl_common_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/rl_title_bar_left"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:focusable="true" >
+
+            <TextView
+                android:id="@+id/tv_title_bar_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="5dp"
+                android:duplicateParentState="true"
+                android:textColor="#676a6c"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/iv_title_bar_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/sel_common_ret"
+                android:duplicateParentState="true"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_title_bar_right"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true" >
+
+            <TextView
+                android:id="@+id/tv_title_bar_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:duplicateParentState="true"
+                android:textColor="#1ab394"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/iv_title_bar_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_main_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/rl_title_bar_right"
+            android:layout_toRightOf="@id/rl_title_bar_left"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="#1ab394"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/rl_common_titlebar"
+        android:background="@drawable/icon_common_title_sep_line" />
+
+</RelativeLayout>

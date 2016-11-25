@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- pressed state -->
+    <item android:drawable="@drawable/icon_common_title_bar_ret_p" android:state_pressed="true"/>
+
+    <!-- focused state -->
+    <item android:drawable="@drawable/icon_common_title_bar_ret_p" android:state_focused="true"/>
+    <item android:drawable="@drawable/icon_common_title_bar_ret_p" android:state_selected="true"/>
+
+    <!-- other state -->
+    <item android:drawable="@drawable/icon_common_title_bar_ret"/>
+
+</selector>

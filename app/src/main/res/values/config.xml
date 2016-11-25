@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="env_release">false</bool>
+    <string name="url_release">http://zdcm.eascs.com/</string>
+    <string name="url_debug">http://172.16.186.86:8030/</string>
+    
+    
+    <string name="url_release_oa">http://183.62.215.53/</string>
+    <string name="url_debug_oa">http://172.16.180.75:18080/unification-register/</string>
+
+
+</resources>
